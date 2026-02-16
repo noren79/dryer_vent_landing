@@ -22,7 +22,23 @@ const App: React.FC = () => {
         <Features />
         <WarningSolution />
         <Pricing />
-        <Quiz />
+        
+        <section id="quiz" className="py-20 bg-white">
+          <div className="max-w-5xl mx-auto px-6 text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              Find Out Which Cleaning Package You Need
+            </h2>
+
+          <iframe
+            src="https://tally.so/embed/will-replace-later"
+            width="100%"
+            height="600"
+            frameBorder="0"
+            title="Dryer Vent Quiz"
+          ></iframe>
+        </div>
+      </section>
+
         <HowItWorks />
         <Gallery />
         <Reviews />
